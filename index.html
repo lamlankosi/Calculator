@@ -15,19 +15,19 @@
 
     <div class="Calculator" >
 
-        <input type="number" id="output" placeholder="0">
+        <input type="number" id="output" placeholder="0" readonly>
 
         <div class="buttons">
             <div class="rows">
                 <button onclick="clearOutput()"><i class="bi bi-trash3-fill"></i></button>
                 <button onclick="clearLast()"><i class="bi bi-backspace"></i></button>
                 <button onclick="appendToOutput('()')">()</button>
-                <button onclick="appendToOutput('+')">+</button>
+                <button onclick="display('+')">+</button>
         <div class="buttons">
             </div>
             </div>
             <div class="row">
-                <button onclick="appendToOutput('7')">7</button>
+                <button onclick="display('7')">7</button>
                 <button onclick="appendToOutput(8)">8</button>
                 <button onclick="appendToOutput(9)">9</button>
                 <button onclick="appendToOutput(/)">÷</button>
